@@ -21,9 +21,9 @@ class TodoItem extends React.Component {
             <button className="btn delete" onClick={this.props.deleteTodo.bind(this, id)}>
               <i className="fa fa-trash" aria-hidden="true"></i>
             </button>
-            <button className="btn edit">
+            {/* <button className="btn edit">
               <i className="fa fa-pencil" aria-hidden="true"></i>
-            </button>
+            </button> */}
           </span>
         </li>
       </>
