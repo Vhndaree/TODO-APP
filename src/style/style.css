@@ -1,0 +1,190 @@
+.container {
+  /* background: palegreen; */
+}
+
+header {
+  background-color: #5538fa;
+}
+
+.header {
+  background-color: #5538fa;
+  max-width: 69.25em;
+  margin: 0 auto;
+}
+
+.header h1 {
+  float: left;
+  line-height: 70px;
+}
+
+.header .search-field {
+  float: right;
+  width: 70%;
+  margin-top: 17px;
+  position: relative;
+}
+
+.search-field input[type=text] {
+  background-color: rgba(126, 130, 136, 0.6);
+  border: none;
+  height: 30px;
+  width: 60%;
+  border-bottom: black solid 1px;
+  padding-left: 30px;
+  padding-right:22px;
+  border-radius: 20px;
+}
+
+.search-field .fa.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  color: #a0a0a0;
+}
+
+.search-field button {
+  position: absolute;
+  left: 448px;
+  top: 6px;
+  color: #000;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-field button:hover {
+  color: rgb(209, 28, 28);
+}
+
+.add-form {
+  max-width: 69.25em;
+  margin: 20px auto;
+}
+
+.add-form input[type=text]{
+  margin-left: 20%;
+  height: 40px;
+  width: 60%;
+  float: left;
+  background: transparent;
+  border: none;
+  background-color: rgba(126, 130, 136, 0.6);
+  border-bottom: 1px solid black;
+  border-radius: 20px 0 0 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.add-form button{
+  height: 40px;
+  width: 50px;
+  margin-left:0;
+  background-color: rgba(140, 171, 218, 0.6);
+  border-bottom: 1px solid black;
+  border-radius: 0 20px 20px 0;
+}
+
+.todolist-wrapper ul {
+  width: 70%;
+  margin: 0 auto;
+  max-height:480px; 
+  overflow-y: auto; 
+}
+
+.todolist-wrapper ul li {
+  width: 100%;
+}
+
+.todolist-wrapper ul li:nth-child(odd) {
+  background: #a0a0a0;
+}
+
+.todolist-wrapper ul li .input{
+  width: 10%;
+  float: left;
+}
+
+.todolist-wrapper ul li .detail-wrapper {
+  width: 80%;
+  display: inline-block;
+}
+
+.todolist-wrapper ul li .detail-wrapper .detail {
+  display: block;
+  word-break: break-all;
+}
+
+.todolist-wrapper ul li .detail-wrapper .date {
+  background-color: rgb(15, 136, 136);
+}
+
+.todolist-wrapper ul li .option-wrapper{
+  width: 8%;
+  float: right;
+}
+
+.tabs {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.tabs li{
+  width: 24.76%;
+  float:left;
+  margin: 0 auto;
+  background-color: #5538fa;
+  text-align: center;
+  margin-left:2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.tabs li:hover {
+  background-color: #130469;
+} 
+
+.tabs li.active {  
+  background-color: #130469;
+  color: #fff;
+}
+
+
+.tabs li:first-child{
+  margin-left:0;
+  border-radius: 10px 0 0 10px;
+}
+
+.tabs li:last-child{
+  border-radius: 0 10px 10px 0;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  padding: 5px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.btn.delete:hover {
+  color: #f00;
+}
+
+.btn.edit:hover {
+  color: #0af;
+}
+
+.btn.star:hover {
+  color: #e0c31a;
+}
+
+.btn.starred {
+  color: #e0c31a;
+}
