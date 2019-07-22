@@ -10,6 +10,10 @@
   clear: both;
 }
 
+input, checkbox, select {
+  outline: none;
+}
+
 ul li {
   list-style-type: none;
   float: left;
