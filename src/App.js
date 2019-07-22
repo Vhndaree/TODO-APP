@@ -118,7 +118,7 @@ class App extends React.Component {
     }
 
     if (this.state.remaining) {
-      displayTodos = this.state.todos.filter((todo) => (todo.completed !== true));
+      displayTodos = displayTodos.filter((todo) => (todo.completed === false));
     }
 
     return displayTodos;
